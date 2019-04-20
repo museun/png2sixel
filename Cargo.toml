@@ -1,0 +1,8 @@
+[package]
+name = "png2sixel"
+version = "0.1.0"
+authors = ["museun <museun@outlook.com>"]
+edition = "2018"
+
+[dependencies]
+image = {version = "0.21.1", default-features = false, features = ["png_codec"]}
